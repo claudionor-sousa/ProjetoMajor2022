@@ -1,0 +1,198 @@
+/*navbar*/
+.navbar{
+    background-color: #dddddd !important;  
+    padding-left: 15% !important;
+    padding-right: 15% !important;
+}
+.navbar-toggler{
+    background-color: white !important;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+}
+.nav-item{
+    border: none; 
+    border-radius: 5px;
+    width: 20%;
+    margin: 5px;
+}
+.SemResponsiveFormNav{
+    display: flex;
+}
+.ComResponsiveFormNav{
+    display: none;
+}
+.nav-item:hover{
+    background: black;
+}
+.nav-link{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold !important;
+}
+.nav-link:hover{
+    color: #dddddd !important;
+}
+.BgButton{
+    margin-top: 5px !important;
+    border: solid 1px rgb(45, 42, 42) !important;
+    color: black !important;  
+}
+.BgButton:hover{
+    background-color: black !important;
+    color: white !important;
+}
+/*Apresentacao*/
+.BGcontainerApresentacao{
+    background: rgb(221,221,221);
+    background: linear-gradient(90deg, rgba(221,221,221,1) 0%, rgba(251,251,251,1) 30%, rgba(247,247,247,1) 70%, rgba(221,221,221,1) 100%);
+}
+.containerApresentacao{
+    margin: 0px 20% 0px 20%;
+    padding: 5% 0px 5% 0px;
+    display: flex;
+    
+}
+.conteudoApresentacaoText{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.btnConteudoApresentacao{
+    border: none;
+    border: solid 1px #dddddd;
+    font-weight: bold;
+    color: #787878;
+    width: 20%;
+}
+.btnConteudoApresentacao:hover{
+    background-color: black;
+    color: white;
+    
+}
+.conteudoApresentacaoImage{
+    width: 50%;
+}
+/*card*/
+.BGcontainerCard{
+    border-top: 1px solid #dddddd;
+    background: rgb(221,221,221);
+    background: linear-gradient(90deg, rgba(221,221,221,1) 0%, rgba(251,251,251,1) 30%, rgba(247,247,247,1) 70%, rgba(221,221,221,1) 100%);
+}
+.containerCard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2%;
+}
+.card{
+    margin: 1%;
+    background-color: #dddddd !important;
+}
+.card-img-top{
+    border-radius: 5px;
+}
+.BtnCardEdit{
+    background-color: #787878 !important;
+    border: none !important;
+    width: 100%;
+}
+.BtnCardEdit:hover
+{
+    background-color: black !important;
+    color: white !important;
+}
+
+
+/*footer */
+.main-title{
+    color: #000000;
+}
+  #contact-area {
+    padding-top: 20px;
+    border-top: 1px solid #dddddd;
+    text-align: center;
+    background: rgb(221,221,221);
+    background: linear-gradient(90deg, rgba(221,221,221,1) 0%, rgba(251,251,251,1) 30%, rgba(247,247,247,1) 70%, rgba(221,221,221,1) 100%);
+
+  }
+  
+  .contact-box {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .contact-box i {
+    color: #444;
+    border: solid 1px #444;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-box p {
+    font-size: 16px;
+  }
+  
+  .contact-tile {
+    font-weight: bold;
+    color: #000000;
+  }
+  #copy-area{
+    background-color: #dddddd !important;
+    text-align: center;
+  }
+
+@media (max-width:991px){
+    /*Navbar*/
+    .nav-item{
+        width: 35%;
+    }
+    .SemResponsiveFormNav
+    {
+         display:none !important;
+    }
+    .ComResponsiveFormNav
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 35%;
+    }
+    .BgButton{
+        margin-top: 5px !important;
+        border: solid 1px rgb(45, 42, 42) !important;
+        color: black !important;  
+    }
+    .BgButton:hover{
+        background-color: black !important;
+        color: white !important;
+    }
+
+    
+    
+}
+@media (max-width:1144px){
+    /*Aprensetacao*/
+    .containerApresentacao{
+        flex-direction: column-reverse;
+    }
+    .conteudoApresentacaoText{
+        width: 100%;
+        text-align: center;
+    }
+    .conteudoApresentacaoImage{
+        width: 100%;
+    }
+}

@@ -1,0 +1,12 @@
+.bodyStreaming{
+    background: rgb(221,221,221);
+    background: linear-gradient(90deg, rgba(221,221,221,1) 0%, rgba(251,251,251,1) 30%, rgba(247,247,247,1) 70%, rgba(221,221,221,1) 100%);
+}
+.containerStreaming{
+    margin: 0px 20% 0px 20%;
+    padding: 5% 0px 5% 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
