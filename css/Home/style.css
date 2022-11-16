@@ -109,6 +109,31 @@
     background-color: black !important;
     color: white !important;
 }
+ /*Premiação*/
+ .BGcontainerPremiacao{
+    background: rgb(221,221,221);
+    background: linear-gradient(90deg, rgba(221,221,221,1) 0%, rgba(251,251,251,1) 30%, rgba(247,247,247,1) 70%, rgba(221,221,221,1) 100%);
+ }
+ .ContainerPremiacao{
+    display: flex;
+    justify-content: center;
+ }
+ .ContainerPremiacao div {
+    width: 25%;
+ }
+ .ContainerPremiacao ul {
+    margin: 0;
+    padding: 0;
+ }
+ .ContainerPremiacao li{
+    border: solid 1px #787878;
+    text-align: center;
+    list-style-type: none;
+ }
+ .TitleLi{
+    background-color:#dddddd ;
+ }
+
 
 
 /*footer */
@@ -178,6 +203,15 @@
     .BgButton:hover{
         background-color: black !important;
         color: white !important;
+    }
+
+    /* premiação*/
+    .ContainerPremiacao{
+        flex-direction: column;
+        align-items: center;
+    }
+    .ContainerPremiacao div{
+        width: 40%;
     }
 
     
