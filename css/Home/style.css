@@ -46,11 +46,13 @@
     background-color: black !important;
     color: white !important;
 }
-/*Apresentacao*/
-.BGcontainerApresentacao{
+.bodyTodo{
+    margin-top:7%;
     background: rgb(221,221,221);
     background: linear-gradient(90deg, rgba(221,221,221,1) 0%, rgba(251,251,251,1) 30%, rgba(247,247,247,1) 70%, rgba(221,221,221,1) 100%);
 }
+/*Apresentacao*/
+
 .containerApresentacao{
     margin: 0px 20% 0px 20%;
     padding: 5% 0px 5% 0px;
@@ -81,10 +83,8 @@
     width: 50%;
 }
 /*card*/
-.BGcontainerCard{
+#BGcontainerCard{
     border-top: 1px solid #dddddd;
-    background: rgb(221,221,221);
-    background: linear-gradient(90deg, rgba(221,221,221,1) 0%, rgba(251,251,251,1) 30%, rgba(247,247,247,1) 70%, rgba(221,221,221,1) 100%);
 }
 .containerCard{
     display: flex;
@@ -109,10 +109,18 @@
     background-color: black !important;
     color: white !important;
 }
+/*caroussel*/
+
+#carouselExampleIndicators{
+    margin: 0px 16.5% 0px 16.5%;
+}
+.CarouselImageAlt{
+    height: 40vh;
+}
+
  /*Premiação*/
- .BGcontainerPremiacao{
-    background: rgb(221,221,221);
-    background: linear-gradient(90deg, rgba(221,221,221,1) 0%, rgba(251,251,251,1) 30%, rgba(247,247,247,1) 70%, rgba(221,221,221,1) 100%);
+ #BGcontainerPremiacao{
+    margin-top:2%;
  }
  .ContainerPremiacao{
     display: flex;
@@ -204,6 +212,7 @@
         background-color: black !important;
         color: white !important;
     }
+    
 
     /* premiação*/
     .ContainerPremiacao{
@@ -213,9 +222,19 @@
     .ContainerPremiacao div{
         width: 40%;
     }
-
-    
-    
+    /* carousel*/
+    .CarouselImageAlt{
+        height: 35vh;
+    }
+    #carouselExampleIndicators{
+        margin: 0px 10% 0px 10%;
+    }   
+}
+@media (max-width:678px){
+    #carouselExampleIndicators{
+        margin: 0px 1% 0px 1%;
+    } 
+    .bodyTodo{ margin-top: 15%;}
 }
 @media (max-width:1144px){
     /*Aprensetacao*/

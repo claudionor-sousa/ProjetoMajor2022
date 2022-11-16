@@ -42,8 +42,39 @@ rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxj
     </div>
   </nav>
 </header>
-<body>
-  <section class="BGcontainerApresentacao">
+<body class="bodyTodo">
+
+   <!-- Carousel -->
+   <section id="BGcontainerCarousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../../img/carousel1.jpg" class="d-block w-100 CarouselImageAlt" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../../img/carousel2.jpg" class="d-block w-100 CarouselImageAlt" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../../img/carousel3.jpg" class="d-block w-100 CarouselImageAlt" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <section id="BGcontainerApresentacao">
       <div  class="containerApresentacao">
         <div class="conteudoApresentacaoText">
           <h1>IEM Rio Major 2022</h1>
@@ -59,8 +90,36 @@ rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxj
       </div>
   </section>
 
+  <!--Premiação-->
+  <section id="BGcontainerPremiacao">
+    <div class="ContainerPremiacao">
+      <div>
+        <ul>
+          <li class="TitleLi">Colocação</li>
+          <li>1º lugar</li>
+          <li>2º lugar</li>
+          <li>3º/4º lugar</li>
+          <li>5º/8º lugar</li>
+          <li>9º/16º lugar</li>
+          <li>17º/24º lugar</li>
+         </ul>
+      </div>
+      <div>
+        <ul>
+          <li class="TitleLi">Premiação</li>
+          <li>US$ 500 mil</li>
+          <li>US$ 170 mil</li>
+          <li>US$ 80 mil</li>
+          <li>US$ 45 mil</li>
+          <li>US$ 20 mil</li>
+          <li>US$ 10 mil </li>
+         </ul>
+      </div>
+    </div>
+  </section>
+
   <!--card-->
-  <section class="BGcontainerCard">
+  <section id="BGcontainerCard">
     <div class="containerCard">
       <div class="card" style="width: 18rem;">
         <img src="../../img/TI Esports jogos.png" class="card-img-top" alt="...">
@@ -94,64 +153,9 @@ rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxj
         </div>
       </div>
     </div> 
-
-    <!-- Carousel -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="/img/carousel1.jpg" class="d-block w-100" alt="..." style="height: 80vh; width: 80vw;">
-        </div>
-        <div class="carousel-item">
-          <img src="/img/carousel2.jpg" class="d-block w-100" alt="..." style="height: 80vh; width: 80vw;">
-        </div>
-        <div class="carousel-item">
-          <img src="/img/carousel3.jpg" class="d-block w-100" alt="..." style="height: 80vh; width: 80vw;">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-
-  </section>
-  <!--Premiação-->
-  <section class="BGcontainerPremiacao">
-    <div class="ContainerPremiacao">
-      <div>
-        <ul>
-          <li class="TitleLi">Colocação</li>
-          <li>1º lugar</li>
-          <li>2º lugar</li>
-          <li>3º/4º lugar</li>
-          <li>5º/8º lugar</li>
-          <li>9º/16º lugar</li>
-          <li>17º/24º lugar</li>
-         </ul>
-      </div>
-      <div>
-        <ul>
-          <li class="TitleLi">Premiação</li>
-          <li>US$ 500 mil</li>
-          <li>US$ 170 mil</li>
-          <li>US$ 80 mil</li>
-          <li>US$ 45 mil</li>
-          <li>US$ 20 mil</li>
-          <li>US$ 10 mil </li>
-         </ul>
-      </div>
-    </div>
-  </section>
+  </section> 
 </body>
+
 <!-- Rodapé -->
 <footer >
   <div id="contact-area">
