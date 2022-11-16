@@ -1,0 +1,67 @@
+.bodyPlacar{
+    margin-top: 5%;
+    background: rgb(221,221,221);
+    background: linear-gradient(90deg, rgba(221,221,221,1) 0%, rgba(251,251,251,1) 30%, rgba(247,247,247,1) 70%, rgba(221,221,221,1) 100%);
+}
+.containerPlacar{
+    padding: 5% 0px 5% 0px;
+    display: flex;   
+    align-items: center;
+    flex-direction: column;
+}
+.containerPlacar h1{
+    font-size: 2.5rem;
+    border-bottom: 1px solid #787878;
+}
+
+.containerListaPlacar{
+    display: flex;
+}
+.containerListaPlacar ul{
+    margin: 0;
+    padding: 0;
+    
+}
+.BorderUl{
+    border-right:solid 1px #dddddd
+}
+.SecondarytitlePlacar{
+    background-color: #eee;
+    font-weight: bold;
+}
+.containerListaPlacar li{
+    list-style-type: none;
+    border-bottom: solid 1px #dddddd;  
+    font-size: 2rem;
+}
+.DisplayLi li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerSecondaryLista h1{
+    text-align: center;
+    margin-top: 10%;
+}
+
+@media (max-width:568px){
+    .containerListaPlacar li{  
+        font-size: 1.5rem;
+    }
+}
+@media (max-width:406px){
+    .containerListaPlacar li{  
+        font-size: 1rem;
+    }
+    .containerListaPlacar{
+        align-items: center;
+        justify-content: center;
+    }  
+    .containerPlacar h1{
+        font-size: 1.5rem;
+
+    }
+    .bodyPlacar{
+        margin-top: 10%;
+    }
+}
