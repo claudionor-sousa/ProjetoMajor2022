@@ -189,8 +189,15 @@
 
 @media (max-width:991px){
     /*Navbar*/
+    .navbar{
+        padding-left: 0!important;
+        padding-right: 0 !important;
+    }
     .nav-item{
         width: 35%;
+    }
+    .form-control{
+        width: 200px !important;
     }
     .SemResponsiveFormNav
     {
@@ -237,6 +244,7 @@
     .bodyTodo{ margin-top: 11%;}
 }
 @media (max-width:1144px){
+    
     /*Aprensetacao*/
     .containerApresentacao{
         flex-direction: column-reverse;

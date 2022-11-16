@@ -10,10 +10,30 @@
     align-items: center;    
 }
 .containerTimes h1{
+    text-align: center;
+    width: 500px;
+    margin-top: 10%;
     margin-bottom: 3%;
     box-shadow: 1px 5px 5px  rgb(59, 59, 59);
     border-radius: 5px;
 }
 .ListaTimes li{
     margin-bottom: 1%;
+}
+@media (max-width:634px)
+{
+    .containerTimes h1{
+        text-align: center;
+        width: 350px;
+        margin-top: 20%;
+        font-size: 1.4rem;       
+    }  
+}
+@media (max-width:486px){
+    .containerTimes h1{
+        text-align: center;
+        width: 200px;
+        margin-top: 25%;
+        font-size: 1rem;       
+    }  
 }
