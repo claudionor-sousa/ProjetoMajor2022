@@ -107,7 +107,7 @@
 }
 .BtnCardEdit:hover
 {
-    background-color: black !important;
+    background-color: rgb(13, 27, 151) !important;
     color: white !important;
 }
 /*caroussel*/
