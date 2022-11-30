@@ -1,6 +1,7 @@
 /*navbar*/
 .navbar{
-    background-color: #dddddd !important;  
+    background: rgb(82,80,210);
+    background: linear-gradient(90deg, rgba(82,80,210,1) 0%, rgba(171,218,238,1) 30%, rgba(171,218,238,1) 70%, rgba(82,80,210,1) 100%);
     padding-left: 15% !important;
     padding-right: 15% !important;
 }
@@ -152,8 +153,8 @@
     padding-top: 20px;
     border-top: 1px solid #dddddd;
     text-align: center;
-    background: rgb(221,221,221);
-    background: linear-gradient(90deg, rgba(221,221,221,1) 0%, rgba(251,251,251,1) 30%, rgba(247,247,247,1) 70%, rgba(221,221,221,1) 100%);
+    background: rgb(82,80,210);
+background: linear-gradient(90deg, rgba(82,80,210,1) 0%, rgba(171,218,238,1) 30%, rgba(171,218,238,1) 70%, rgba(82,80,210,1) 100%);
 
   }
   
@@ -164,8 +165,8 @@
   }
   
   .contact-box em {
-    color: #444;
-    border: solid 1px #444;
+    color: rgb(9, 8, 8);
+    border: solid 1px rgb(119, 117, 117);
     border-radius: 50%;
     width: 55px;
     height: 55px;
@@ -180,10 +181,11 @@
   
   .contact-tile {
     font-weight: bold;
-    color: #000000;
+    color: #1000ee;
   }
   #copy-area{
-    background-color: #dddddd !important;
+    background: rgb(82,80,210);
+    background: linear-gradient(90deg, rgba(82,80,210,1) 0%, rgba(171,218,238,1) 30%, rgba(171,218,238,1) 70%, rgba(82,80,210,1) 100%);
     text-align: center;
   }
 
