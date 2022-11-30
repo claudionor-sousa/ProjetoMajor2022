@@ -1,7 +1,6 @@
 /*navbar*/
 .navbar{
-    background: rgb(82,80,210);
-    background: linear-gradient(90deg, rgba(82,80,210,1) 0%, rgba(171,218,238,1) 30%, rgba(171,218,238,1) 70%, rgba(82,80,210,1) 100%);
+    background: rgb(1, 109, 172);
     padding-left: 15% !important;
     padding-right: 15% !important;
 }
@@ -27,13 +26,14 @@
     display: none;
 }
 .nav-item:hover{
-    background: black;
+    background: rgb(49, 49, 49);
 }
 .nav-link{
     display: flex !important;
     justify-content: center;
     align-items: center;
-    font-weight: bold !important;
+    font-weight: bold !important; 
+    color: white !important;
 }
 .nav-link:hover{
     color: #dddddd !important;
@@ -55,7 +55,7 @@
 /*Apresentacao*/
 
 .containerApresentacao{
-    margin: 0px 20% 0px 20%;
+    margin: 0px 16.5% 0px 16.5%;
     padding: 5% 0px 5% 0px;
     display: flex;
     
@@ -126,6 +126,7 @@
  .ContainerPremiacao{
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
  }
  .ContainerPremiacao div {
     width: 25%;
@@ -143,18 +144,22 @@
     background-color:#dddddd ;
  }
 
-
+/*maps*/
+.maps{
+    display: flex;
+    justify-content: center;
+    margin: 3%
+}
 
 /*footer */
 .main-title{
-    color: #000000;
+    color: #fdfdfd;
 }
   #contact-area {
     padding-top: 20px;
     border-top: 1px solid #dddddd;
     text-align: center;
-    background: rgb(82,80,210);
-background: linear-gradient(90deg, rgba(82,80,210,1) 0%, rgba(171,218,238,1) 30%, rgba(171,218,238,1) 70%, rgba(82,80,210,1) 100%);
+    background: rgb(1, 109, 172);
 
   }
   
@@ -162,11 +167,15 @@ background: linear-gradient(90deg, rgba(82,80,210,1) 0%, rgba(171,218,238,1) 30%
     padding-bottom: 50px;
     margin-bottom: 50px;
     border-bottom: 1px solid #dddddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   .contact-box em {
-    color: rgb(9, 8, 8);
-    border: solid 1px rgb(119, 117, 117);
+    color: rgb(255, 255, 255);
+    border: solid 1px rgb(255, 254, 254);
     border-radius: 50%;
     width: 55px;
     height: 55px;
@@ -178,16 +187,23 @@ background: linear-gradient(90deg, rgba(82,80,210,1) 0%, rgba(171,218,238,1) 30%
   .contact-box p {
     font-size: 16px;
   }
+  .dados{color: #dddddd;}
   
   .contact-tile {
     font-weight: bold;
-    color: #1000ee;
+    color: #f6f6ff;
   }
   #copy-area{
-    background: rgb(82,80,210);
-    background: linear-gradient(90deg, rgba(82,80,210,1) 0%, rgba(171,218,238,1) 30%, rgba(171,218,238,1) 70%, rgba(82,80,210,1) 100%);
+    background: rgb(1, 109, 172);
     text-align: center;
   }
+  .copyright{
+    color: white;
+
+  }
+  
+
+
 
 @media (max-width:991px){
     /*Navbar*/
